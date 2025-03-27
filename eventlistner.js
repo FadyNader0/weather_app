@@ -24,3 +24,11 @@ search_btn.addEventListener("click" , function(){
     input_search.value = "" 
     clear_input.classList.remove("active"); 
 })
+
+search_btn.addEventListener("mouseenter", function () {
+    message_search.classList.add("active");
+});
+
+search_btn.addEventListener("mouseleave", function () {
+    message_search.classList.remove("active");
+});
